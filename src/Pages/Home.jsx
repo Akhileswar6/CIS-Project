@@ -1,9 +1,12 @@
+import Hero from "../Components/Hero";
 
 
 
-const Home = () => {
+const Home = ({isDark}) => {
     return(
-        <div>Home</div>
+        <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'}`}>
+            <Hero />
+        </div>
     );
 };
 

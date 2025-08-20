@@ -12,17 +12,22 @@ import JoinUs from './Pages/JoinUs'
 import NotFound from './Pages/NotFound'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Animation from './Components/Animation'
 import './App.css'
+
+
+
 
 function App() {
 
   const [isDark, setIsDark] = useState(false);
 
   return (
-    <div className={`${isDark ? 'bg-black' : 'bg-white'} min-h-screen flex flex-col`}>
+    <div className={`${isDark ? 'bg-black' : 'bg-white'} min-h-screen flex flex-col justify-between gap-5`}>
       
         {/* <ScrollToTop /> */}
         <section className=''><Navbar isDark={isDark} setIsDark={setIsDark} /></section>
+        {/* <Animation /> */}
         <div className='mt-50'>
           <Routes>
               <Route path='/' element={<Home isDark={isDark} />} />
@@ -35,7 +40,9 @@ function App() {
               <Route path='*' element={<NotFound />} />
           </Routes>
         </div>
-        <Footer />
+        <section className='pt-10'>
+          <Footer isDark={isDark} />
+        </section>
 
     </div>
   )
