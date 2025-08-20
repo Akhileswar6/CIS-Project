@@ -12,7 +12,7 @@ const Navbar = ({isDark, setIsDark}) => {
         <div className='flex gap-2 justify-center items-center'>
             <img src={logo} alt="" width={24} />
             <div>
-                <h3 className='text-lg font-bold'>CIS Association</h3>
+                <h3 className='text-lg font-bold'>CIS Assoc</h3>
                 <p className='text-[10px] text-gray-500'>SVCE, Tirupati</p>
             </div>
         </div>

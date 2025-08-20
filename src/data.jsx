@@ -20,8 +20,8 @@ export const FooterDetails = [
 ]
 
 export const SocialLinks = [
-    {name : 'Mail', link : 'tejayerriboyina@gmail.com', img : <Mail size={24} />},
-    {name : 'LinkedIn', link : 'tejayerriboyina@gmail.com', img : <Linkedin size={24} />},
-    {name : 'GitHub', link : 'tejayerriboyina@gmail.com', img : <Github size={24} />},
-    {name : 'Twitter', link : 'tejayerriboyina@gmail.com', img : <Twitter size={24} />},
+    {name : 'Mail', link : 'tejayerriboyina@gmail.com', img : <Mail size={16} />},
+    {name : 'LinkedIn', link : 'tejayerriboyina@gmail.com', img : <Linkedin size={16} />},
+    {name : 'GitHub', link : 'tejayerriboyina@gmail.com', img : <Github size={16} />},
+    {name : 'Twitter', link : 'tejayerriboyina@gmail.com', img : <Twitter size={16} />},
 ]
