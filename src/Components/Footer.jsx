@@ -2,6 +2,7 @@ import { NavLinks } from "../data";
 import { Link } from "react-router-dom";
 import logo from '../assets/react.svg'
 import { SocialLinks } from "../data";
+import { Copyright } from 'lucide-react'
 
 
 
@@ -42,6 +43,16 @@ const Footer = ({isDark}) => {
           <h3>Stay Updated</h3>
           <p>Subscribe to our newstellerfor the latest cs updates.</p>
         </div>
+      </div>
+      <div className="flex justify-between items-center">
+        <p className="flex">
+          <Copyright /> 2024 CIS Association, Sri Venkateshwara College of Engineering. All rights reserved.
+          <br />
+          Developed by Teja and Akhileshwar, CIS Association Technical Team.
+        </p>
+        <p>
+          Privacy Policy
+        </p>
       </div>
     </div>
   )

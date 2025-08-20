@@ -13,6 +13,7 @@ import NotFound from './Pages/NotFound'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Animation from './Components/Animation'
+import ScrollToTop from './Components/ScrollToTop'
 import './App.css'
 
 
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className={`${isDark ? 'bg-black' : 'bg-white'} min-h-screen flex flex-col justify-between gap-5`}>
       
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <section className=''><Navbar isDark={isDark} setIsDark={setIsDark} /></section>
         {/* <Animation /> */}
         <div className='mt-50'>

@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Badge, Calendar, Github, Linkedin, Mail, Shield, Twitter, Users } from "lucide-react"
+import { GiAchievement } from "react-icons/gi"
 
 export const NavLinks = [
     {name : 'Home' , link : '/'},
@@ -24,4 +25,51 @@ export const SocialLinks = [
     {name : 'LinkedIn', link : 'tejayerriboyina@gmail.com', img : <Linkedin size={16} />},
     {name : 'GitHub', link : 'tejayerriboyina@gmail.com', img : <Github size={16} />},
     {name : 'Twitter', link : 'tejayerriboyina@gmail.com', img : <Twitter size={16} />},
+]
+
+export const UpcomingEventsData = [
+    {
+        label : 'Workshop',
+        date : 'March 15, 2024',
+        name : 'Ethical Hacking Workshop',
+        time : '10 : 00 AM',
+        description : 'Learn penetration testing and ethical hacking tools.'
+    },
+    {
+        label : 'Competition',
+        date : 'March 15, 2024',
+        name : 'Ethical Hacking Workshop',
+        time : '11 : 00 AM',
+        description : 'Learn penetration testing and ethical hacking tools.'
+    },
+    {
+        label : 'Seminar',
+        date : 'March 15, 2024',
+        name : 'Ethical Hacking Workshop',
+        time : '4 : 00 PM',
+        description : 'Learn penetration testing and ethical hacking tools.'
+    },
+]
+
+export const AssociationDetailsCounts = [
+    {
+        img : <Users />,
+        name : 'Members',
+        count : '500+',
+    },
+    {
+        img : <Calendar />,
+        name : 'Members',
+        count : '500+',
+    },
+    {
+        img : <Badge />,
+        name : 'Members',
+        count : '500+',
+    },
+    {
+        img : <Shield />,
+        name : 'Members',
+        count : '500+',
+    },
 ]
