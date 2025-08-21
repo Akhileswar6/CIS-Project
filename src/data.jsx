@@ -1,4 +1,4 @@
-import { Badge, Calendar, Github, Linkedin, Mail, Shield, Twitter, Users } from "lucide-react"
+import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User } from "lucide-react"
 import { GiAchievement } from "react-icons/gi"
 
 export const NavLinks = [
@@ -9,6 +9,7 @@ export const NavLinks = [
     {name : 'Resources' , link : '/resources'},
     {name : 'Contact' , link : '/contact'},
     {name : 'Join Us' , link : '/joinus'},
+
 ]
 
 export const FooterDetails = [
@@ -49,6 +50,13 @@ export const UpcomingEventsData = [
         time : '4 : 00 PM',
         description : 'Learn penetration testing and ethical hacking tools.'
     },
+    {
+        label : 'Seminar',
+        date : 'March 15, 2024',
+        name : 'Ethical Hacking Workshop',
+        time : '4 : 00 PM',
+        description : 'Learn penetration testing and ethical hacking tools.'
+    },
 ]
 
 export const AssociationDetailsCounts = [
@@ -71,5 +79,112 @@ export const AssociationDetailsCounts = [
         img : <Shield />,
         name : 'Members',
         count : '500+',
+    },
+]
+
+export const MissionAndVision = [
+    {
+        name : 'Our Mission',
+        img : <Eye color="blue" />,
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident necessitatibus reiciendis qui sequi impedit, vero quas aut cumque possimus, explicabo facilis, debitis similique nam delectus tempore? Quasi, libero ipsum!',
+    },
+    {
+        name : 'Our Mission',
+        img : <Target color="green" />,
+        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident necessitatibus reiciendis qui sequi impedit, vero quas aut cumque possimus, explicabo facilis, debitis similique nam delectus tempore? Quasi, libero ipsum!',
+    },
+]
+
+export const OrganizationalStructure = [
+    {
+        img : <User color="blue" />,
+        name : 'President',
+        work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
+        resonsibilities : [
+            'Strategic Planning',
+            'Strategic Planning',
+            'Strategic Planning',
+        ]
+    },
+    {
+        img : <User color="blue"  />,
+        name : 'President',
+        work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
+        resonsibilities : [
+            'Strategic Planning',
+            'Strategic Planning',
+            'Strategic Planning',
+        ]
+    },
+    {
+        img : <User color="blue" />,
+        name : 'President',
+        work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
+        resonsibilities : [
+            'Strategic Planning',
+            'Strategic Planning',
+            'Strategic Planning',
+        ]
+    },
+    {
+        img : <User color="blue" />,
+        name : 'President',
+        work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
+        resonsibilities : [
+            'Strategic Planning',
+            'Strategic Planning',
+            'Strategic Planning',
+        ]
+    },
+    {
+        img : <User color="blue" />,
+        name : 'President',
+        work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
+        resonsibilities : [
+            'Strategic Planning',
+            'Strategic Planning',
+            'Strategic Planning',
+        ]
+    },
+    {
+        img : <User color="blue" />,
+        name : 'President',
+        work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
+        resonsibilities : [
+            'Strategic Planning',
+            'Strategic Planning',
+            'Strategic Planning',
+        ]
+    },
+]
+
+export const AchievementsData = [
+    {
+        label : 'Workshop',
+        img : <Badge />,
+        year : '2024',
+        name : 'Ethical Hacking Workshop',
+        description : 'Learn penetration testing and ethical hacking tools.'
+    },
+    {
+        label : 'Competition',
+        img : <Badge />,
+        year : '2024',
+        name : 'Ethical Hacking Workshop',
+        description : 'Learn penetration testing and ethical hacking tools.'
+    },
+    {
+        label : 'Seminar',
+        img : <Badge />,
+        year : '2024',
+        name : 'Ethical Hacking Workshop',
+        description : 'Learn penetration testing and ethical hacking tools.'
+    },
+    {
+        label : 'Seminar',
+        img : <Badge />,
+        year : '2024',
+        name : 'Ethical Hacking Workshop',
+        description : 'Learn penetration testing and ethical hacking tools.'
     },
 ]

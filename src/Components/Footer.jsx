@@ -12,8 +12,8 @@ const Footer = ({isDark}) => {
       <div className="flex flex-col gap-y-3 border-y-1 border-gray-900 py-7">
         <h4 className="text-xl">Quick Links</h4>
         <ul className="flex flex-col gap-y-2">
-          {NavLinks.map((link) => (
-            <li className="text-md text-gray-500"><Link to={link.link}>{link.name}</Link></li>
+          {NavLinks.map((link, index) => (
+            <li key={index} className="text-md text-gray-500"><Link to={link.link}>{link.name}</Link></li>
           ))}
         </ul>
       </div>
@@ -29,8 +29,8 @@ const Footer = ({isDark}) => {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam et error, reprehenderit iusto voluptates ratione ipsum vitae nobis, officia quas ut consequuntur numquam perferendis provident. Dolor facilis non quas eius.</p>
           
           <div className="flex gap-x-5">
-            {SocialLinks.map((link)=>(
-              <a href={link.link}>{link.img}</a>
+            {SocialLinks.map((link, index)=>(
+              <a key={index} href={link.link}>{link.img}</a>
             ))}
           </div>
         </div>

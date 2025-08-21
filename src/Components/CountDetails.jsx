@@ -4,10 +4,16 @@ import { AssociationDetailsCounts } from "../data"
 
 const CountDetails = () => {
     return(
-        <div>
-            {AssociationDetailsCounts.map((count)=>(
-                <p className="odd:bg-blue-500 even:bg-green-500">{count.img}</p>
-            ))}
+        <div className="px-10">
+            <div className="flex relative justify-end">
+                {AssociationDetailsCounts.map((count)=>(
+                    <div className="relative basis-1/4">
+                        {count.img}
+                        <h3>{count.count}</h3>
+                        <p>{count.name}</p>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }
