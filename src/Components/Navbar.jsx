@@ -10,10 +10,10 @@ const Navbar = ({isDark, setIsDark}) => {
   return (
     <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-b-1 border-gray-900`}>
         <div className='flex gap-2 justify-center items-center'>
-            <img src={logo} alt="" width={24} />
+            <img src={logo} alt="Cyber-logo" width={24} />
             <div>
                 <h3 className='text-lg font-bold'>CIS Association</h3>
-                <p className='text-[10px] text-gray-500'>SVCE, Tirupati</p>
+                <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
             </div>
         </div>
 

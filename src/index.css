@@ -1,1 +1,6 @@
 @import 'tailwindcss';
+
+/* Set Inter as the default font for the website */
+body, html, * {
+	font-family: 'Inter', sans-serif;
+}
