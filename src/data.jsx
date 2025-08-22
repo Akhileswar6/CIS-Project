@@ -31,54 +31,41 @@ export const SocialLinks = [
 export const UpcomingEventsData = [
     {
         label : 'Workshop',
-        date : 'March 15, 2024',
+        date : 'Nov 15, 2025',
         name : 'Ethical Hacking Workshop',
-        time : '10 : 00 AM',
-        description : 'Learn penetration testing and ethical hacking tools.'
+        time : '09:30 AM',
+        description : 'Join our Ethical Hacking Workshop to explore cybersecurity basics and hands-on hacking tools.'
     },
     {
-        label : 'Competition',
-        date : 'March 15, 2024',
-        name : 'Ethical Hacking Workshop',
-        time : '11 : 00 AM',
-        description : 'Learn penetration testing and ethical hacking tools.'
+        label : 'Hackathon',
+        date : 'Oct 17, 2025',
+        name : 'CyberSecurity Hackathon',
+        time : '10:30 AM',
+        description : 'Participate in our Cybersecurity Hackathon to tackle real-world security challenges and showcase your skills.'
     },
-    {
-        label : 'Seminar',
-        date : 'March 15, 2024',
-        name : 'Ethical Hacking Workshop',
-        time : '4 : 00 PM',
-        description : 'Learn penetration testing and ethical hacking tools.'
-    },
-    {
-        label : 'Seminar',
-        date : 'March 15, 2024',
-        name : 'Ethical Hacking Workshop',
-        time : '4 : 00 PM',
-        description : 'Learn penetration testing and ethical hacking tools.'
-    },
+   
 ]
 
 export const AssociationDetailsCounts = [
     {
-        img : <Users />,
+        img : <Users color="#4da6ff"/>,
         name : 'Members',
-        count : '500+',
+        count : '50+',
     },
     {
-        img : <Calendar />,
-        name : 'Members',
-        count : '500+',
+        img : <Calendar color="#4da6ff"/>,
+        name : 'Events',
+        count : '50+',
     },
     {
-        img : <Badge />,
-        name : 'Members',
-        count : '500+',
+        img : <Badge color="#4da6ff"/>,
+        name : 'Awards',
+        count : '10+',
     },
     {
-        img : <Shield />,
-        name : 'Members',
-        count : '500+',
+        img : <Shield color="#4da6ff"/>,
+        name : 'Secure',
+        count : '100%',
     },
 ]
 

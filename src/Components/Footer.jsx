@@ -9,7 +9,7 @@ import { Copyright } from 'lucide-react'
 const Footer = ({isDark}) => {
   return (
     <div className={`bg-black px-5 py-10 text-white flex flex-col gap-y-10`}>
-  <div className="flex flex-col gap-y-3 py-7">
+  <div className="flex flex-col gap-y-3 py-7 ml-4">
         <div className="flex gap-30">
           <div>
             <h4 style={{fontSize:18, fontWeight:500}} className="text-white-500 mb-2">Quick Links</h4>
@@ -41,7 +41,7 @@ const Footer = ({isDark}) => {
       <div className="flex gap-20">
         <div className="basis-1/3 flex flex-col gap-y-3">
           <div className='flex gap-2 items-center'>
-            <img src={logo} alt="" width={24} />
+            <img src={logo} alt="CIS Logo" width={40} height={40} style={{borderRadius: '6px'}} />
             <div>
                 <h3 className='text-lg'>CIS Association</h3>
                 <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
