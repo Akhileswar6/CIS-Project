@@ -16,7 +16,7 @@ const AboutHero = () =>{
                             {func.img}
                             <h3 className="text-xl font-semibold">{func.name}</h3>
                         </div>
-                        <p>{func.description}</p>
+                        <p className="text-gray-500">{func.description}</p>
                     </div>
                 ))}
             </div>

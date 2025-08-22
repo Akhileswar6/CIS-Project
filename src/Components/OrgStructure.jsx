@@ -14,8 +14,8 @@ const OrgStructure = () => {
             <div className="flex gap-x-5 gap-y-10 pt-7 flex-wrap items-center justify-evenly">
                 {OrganizationalStructure.map((org, index) => (
                     <div className="basis-1/4 flex flex-col gap-5 px-7 border-1 border-gray-900 py-5 rounded-md" key={index}>
-                    <div className="flex items-baseline gap-2">
-                        {org.img}
+                    <div className="flex items-center gap-2">
+                        <div className="bg-blue-400 p-1 text-white rounded-md">{org.img}</div>
                         <h6 className="text-lg font-medium">{org.name}</h6>
                     </div>
                     <p className="text-[11px]">{org.work}</p>
