@@ -8,7 +8,7 @@ import ToggleDark from './ToggleDark';
 
 const Navbar = ({isDark, setIsDark}) => {
   return (
-    <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-b-1 border-gray-900`}>
+    <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-b-1 border-gray-900 z-10`}>
         <div className='flex gap-2 justify-center items-center'>
             <img src={logo} alt="Cyber-logo" width={24} />
             <div>

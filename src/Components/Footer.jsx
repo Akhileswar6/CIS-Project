@@ -22,7 +22,7 @@ const Footer = ({isDark}) => {
           <div>
             <h4 style={{fontSize:18, fontWeight:500}} className="text-white-500 mb-2">Events</h4>
             <ul className="flex flex-col gap-y-2">
-              <li className=" text-gray-500"><a className="hover:text-white transition-colors duration-200" href="https://www.google.com" target="_blank" rel="noopener noreferrer">Past Events</a></li>
+              <li className=" text-gray-500"><Link className="hover:text-white transition-colors duration-200" to={'/'}>Past Events</Link></li>
               <li className=" text-gray-500"><a className="hover:text-white transition-colors duration-200" href="https://www.github.com" target="_blank" rel="noopener noreferrer">Workshops</a></li>
               <li className=" text-gray-500"><a className="hover:text-white transition-colors duration-200" href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">UpComing Events</a></li>
             </ul>
@@ -43,7 +43,7 @@ const Footer = ({isDark}) => {
           <div className='flex gap-2 items-center'>
             <img src={logo} alt="" width={24} />
             <div>
-                <h3 className='text-lg '>CIS Association</h3>
+                <h3 className='text-lg'>CIS Association</h3>
                 <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
             </div>
           </div>

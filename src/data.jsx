@@ -89,7 +89,7 @@ export const MissionAndVision = [
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident necessitatibus reiciendis qui sequi impedit, vero quas aut cumque possimus, explicabo facilis, debitis similique nam delectus tempore? Quasi, libero ipsum!',
     },
     {
-        name : 'Our Mission',
+        name : 'Our Vision',
         img : <Target color="green" />,
         description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident necessitatibus reiciendis qui sequi impedit, vero quas aut cumque possimus, explicabo facilis, debitis similique nam delectus tempore? Quasi, libero ipsum!',
     },
@@ -97,7 +97,7 @@ export const MissionAndVision = [
 
 export const OrganizationalStructure = [
     {
-        img : <User color="blue" />,
+        img : <User />,
         name : 'President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
@@ -107,7 +107,7 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User color="blue"  />,
+        img : <User  />,
         name : 'President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
@@ -117,7 +117,7 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User color="blue" />,
+        img : <User />,
         name : 'President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
@@ -127,7 +127,7 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User color="blue" />,
+        img : <User />,
         name : 'President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
@@ -137,7 +137,7 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User color="blue" />,
+        img : <User />,
         name : 'President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
@@ -147,7 +147,7 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User color="blue" />,
+        img : <User />,
         name : 'President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [

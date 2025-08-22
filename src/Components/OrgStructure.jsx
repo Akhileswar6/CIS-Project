@@ -23,7 +23,7 @@ const OrgStructure = () => {
                         <p className="text-gray-500">Key responsibilities</p>
                         <ul className="list-disc pt-2">
                             {org.resonsibilities.map((res, index) => (
-                                <li key={index} className="text-sm marker:text-blue-400">{res}</li>
+                                <li key={index} className="text-sm marker:text-blue-300">{res}</li>
                             ))}
                         </ul>
                     </div>
