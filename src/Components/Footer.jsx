@@ -40,10 +40,10 @@ const Footer = ({isDark}) => {
       </div>
       <div className="flex gap-20">
         <div className="basis-1/3 flex flex-col gap-y-3">
-      <Link to="/" className='flex gap-1 items-center'>
-        <img src={logo} alt="CIS Logo" width={50} height={50} />
+      <Link to="/" className='flex gap-2 items-center'>
+        <img src={logo} alt="CIS Logo" width={40} height={40} />
         <div>
-          <h3 className='text-lg mt-2'>CIS Association</h3>
+          <h3 className='text-lg '>CIS Association</h3>
           <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
         </div>
       </Link>

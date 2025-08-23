@@ -11,11 +11,13 @@ const Navbar = ({isDark, setIsDark}) => {
   return (
     <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-b-1 border-gray-900 z-10`}>
         <div className='flex gap-2 justify-center items-center'>
-            <img src={isDark ? lightLogo : darkLogo} alt="Main Logo" width={50} height={50} style={{marginBottom:2}} />
-                        <div>
-                                <h3 className='text-lg mt-2'>CIS Association</h3>
-                                <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
-                        </div>
+                <Link to="/" className='ml-1 flex gap-2 items-center'>
+                    <img src={isDark ? lightLogo : darkLogo} alt="Main Logo" width={40} height={40}  />
+                    <div>
+                        <h3 className='text-lg '>CIS Association</h3>
+                        <p className='text-[12px] text-gray-500 '>SVCE, Tirupati</p>
+                    </div>
+                </Link>
         </div>
 
         <div>
