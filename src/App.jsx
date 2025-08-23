@@ -35,7 +35,7 @@ function App() {
               <Route path='/' element={<Home isDark={isDark} />} />
               <Route path='/about' element={<About isDark={isDark} />} />
               <Route path='/teams' element={<Teams isDark={isDark} />} />
-              <Route path='/events' element={<Events />} />
+              <Route path='/events' element={<Events isDark={isDark} />} />
               <Route path='/resources' element={<Resources />} />
               <Route path='/contact' element={<Contact />} />
               <Route path='/joinus' element={<JoinUs />} />

@@ -1,7 +1,14 @@
-import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User, MailIcon } from "lucide-react"
+import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User, MailIcon, Trophy, BookOpen, Lightbulb } from "lucide-react"
 import { GiAchievement } from "react-icons/gi"
 import Achievements from "./Components/Achievements"
 import pic1 from './assets/react.svg'
+
+
+
+
+// ==========================
+// Navigation Links (Header Menu)
+// ==========================
 
 export const NavLinks = [
     {name : 'Home' , link : '/'},
@@ -14,6 +21,11 @@ export const NavLinks = [
 
 ]
 
+
+// ==========================
+// Footer Links (Uses NavLinks + Support Links)
+// ==========================
+
 export const FooterDetails = [
     {heading : 'Quick Links', links : NavLinks},
     {heading : 'Support', links : [
@@ -23,6 +35,11 @@ export const FooterDetails = [
     ]}
 ]
 
+
+// ==========================
+// Social Media Links
+// ==========================
+
 export const SocialLinks = [
     {name : 'Mail', link : 'tejayerriboyina@gmail.com', img : <Mail size={18} />},
     {name : 'LinkedIn', link : 'tejayerriboyina@gmail.com', img : <Linkedin size={18} />},
@@ -30,7 +47,19 @@ export const SocialLinks = [
     {name : 'Twitter', link : 'tejayerriboyina@gmail.com', img : <Twitter size={18} />},
 ]
 
+
+// ==========================
+// Upcoming Events (Future Schedule)
+// ==========================
+
 export const UpcomingEventsData = [
+    {
+        label : 'Workshop',
+        date : 'Nov 15, 2025',
+        name : 'Ethical Hacking Workshop',
+        time : '09:30 AM',
+        description : 'Join our Ethical Hacking Workshop to explore cybersecurity basics and hands-on hacking tools.'
+    },
     {
         label : 'Workshop',
         date : 'Nov 15, 2025',
@@ -45,8 +74,20 @@ export const UpcomingEventsData = [
         time : '10:30 AM',
         description : 'Participate in our Cybersecurity Hackathon to tackle real-world security challenges and showcase your skills.'
     },
+    {
+        label : 'Hackathon',
+        date : 'Oct 17, 2025',
+        name : 'CyberSecurity Hackathon',
+        time : '10:30 AM',
+        description : 'Participate in our Cybersecurity Hackathon to tackle real-world security challenges and showcase your skills.'
+    },
    
 ]
+
+
+// ==========================
+// Association Stats (Counters for Landing Page)
+// ==========================
 
 export const AssociationDetailsCounts = [
     {
@@ -71,6 +112,11 @@ export const AssociationDetailsCounts = [
     },
 ]
 
+
+// ==========================
+// Mission and Vision Section
+// ==========================
+
 export const MissionAndVision = [
     {
         name : 'Our Mission',
@@ -84,6 +130,11 @@ export const MissionAndVision = [
 
     },
 ]
+
+
+// ==========================
+// Organizational Structure (Core Team Roles)
+// ==========================
 
 export const OrganizationalStructure = [
     {
@@ -148,6 +199,12 @@ export const OrganizationalStructure = [
     },
 ]
 
+
+
+// ==========================
+// Achievements Data (Workshops, Competitions, Seminars)
+// ==========================
+
 export const AchievementsData = [
     {
         label : 'Workshop',
@@ -178,6 +235,14 @@ export const AchievementsData = [
         description : 'Learn penetration testing and ethical hacking tools.'
     },
 ]
+
+
+
+
+// ==========================
+// Teams Data (Leadership, Technical, etc.)
+// Each team contains multiple members with skills, achievements & links
+// ==========================
 
 export const TeamsDetailsData = [
     {
@@ -316,4 +381,104 @@ export const TeamsDetailsData = [
             },
         ]
     }
+]
+
+
+
+
+// ==========================
+// Important Programs (Highlights like CTF, Sessions, etc.)
+// ==========================
+
+export const ImportantPrograms = [
+    {name : 'CTF Competititons', img : <Trophy color="blue" />, description : 'Regular capture-the-flag competitions to test and improve your hacking skills', tagLine : 'Monthly competitions with 100+ participants'},
+    {name : 'CTF Competititons', img : <BookOpen color="green" />, description : 'Regular capture-the-flag competitions to test and improve your hacking skills', tagLine : 'Monthly competitions with 100+ participants'},
+    {name : 'CTF Competititons', img : <Lightbulb color="blue" />, description : 'Regular capture-the-flag competitions to test and improve your hacking skills', tagLine : 'Monthly competitions with 100+ participants'},
+]
+
+
+
+
+
+// ==========================
+// Past Events (History of Programs Conducted)
+// ==========================
+
+export const PastEventsData = [
+    {
+        program : 'Workshop',
+        date : 'Feb 20, 2025',
+        name : 'Advanced Malware Analysis Workshop',
+        tag : 'Deep dive into malware reverse engineering and analysis techniques',
+        images : [
+            pic1,
+            pic1, 
+            pic1
+        ],
+        highlights : [
+            'Static and dynamic analysis',
+            'Sandbox environments',
+            'Real malware samples',
+            'Industry tools'
+        ],
+        participants : '45',
+        rating : '4.8',
+    },
+    {
+        program : 'Workshop',
+        date : 'Feb 20, 2025',
+        name : 'Advanced Malware Analysis Workshop',
+        tag : 'Deep dive into malware reverse engineering and analysis techniques',
+        images : [
+            pic1,
+            pic1, 
+            pic1
+        ],
+        highlights : [
+            'Static and dynamic analysis',
+            'Sandbox environments',
+            'Real malware samples',
+            'Industry tools'
+        ],
+        participants : '45',
+        rating : '4.8',
+    },
+    {
+        program : 'Workshop',
+        date : 'Feb 20, 2025',
+        name : 'Advanced Malware Analysis Workshop',
+        tag : 'Deep dive into malware reverse engineering and analysis techniques',
+        images : [
+            pic1,
+            pic1, 
+            pic1
+        ],
+        highlights : [
+            'Static and dynamic analysis',
+            'Sandbox environments',
+            'Real malware samples',
+            'Industry tools'
+        ],
+        participants : '45',
+        rating : '4.8',
+    },
+    {
+        program : 'Workshop',
+        date : 'Feb 20, 2025',
+        name : 'Advanced Malware Analysis Workshop',
+        tag : 'Deep dive into malware reverse engineering and analysis techniques',
+        images : [
+            pic1,
+            pic1, 
+            pic1
+        ],
+        highlights : [
+            'Static and dynamic analysis',
+            'Sandbox environments',
+            'Real malware samples',
+            'Industry tools'
+        ],
+        participants : '45',
+        rating : '4.8',
+    },
 ]

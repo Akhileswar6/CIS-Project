@@ -8,8 +8,8 @@ const UpcomingEvents = () => {
         <div className="px-10 pt-36 flex flex-col w-full gap-y-5">
             <h2 className="text-3xl  text-center">Upcoming Events</h2>
             <p className="text-center text-gray-500">Stay ahead in Cyber Security with our cutting edge workshops, competitions and Hackathons.</p>
-            <div className="flex  py-10 justify-around items-center w-full flex-wrap">
-                {UpcomingEventsData.slice(0, 2).map((ent) => (
+            <div className="grid grid-cols-3 py-10 gap-4 w-full">
+                {UpcomingEventsData.map((ent) => (
                     <div className="border-1 p-5 border-gray-900 rounded-xl flex flex-col gap-y-7 basis-1/3">
                         <div className="flex text-[14px] justify-between">
                             <p className="bg-green-500 px-2 rounded-md">{ent.label}</p>

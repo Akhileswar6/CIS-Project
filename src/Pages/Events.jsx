@@ -1,9 +1,16 @@
+import EventsHero from "../Components/EventsHero";
+import UpcomingEvents from "../Components/UpcomingEvents";
+import PastEvents from "../Components/PastEvents";
 
 
 
-const Events = () => {
+const Events = ({isDark}) => {
     return(
-        <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} flex flex-col gap-10`}>Events</div>
+        <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} flex flex-col gap-5`}>
+            <EventsHero />
+            <UpcomingEvents />
+            <PastEvents />
+        </div>
     );
 };
 
