@@ -60,7 +60,7 @@ const Footer = ({isDark}) => {
  
 
         <div className="basis-1/3">
-          <h3 style={{fontSize:18, fontWeight:500}}className="text-white-500 mt-2 mb-2">College Information</h3>
+          <h3 style={{fontSize:18, fontWeight:500}}className="text-white-500 mt-6 mb-2">College Information</h3>
           <p style={{fontSize:15}}className=" text-sm"> Sri Venkateshwara College of Engineering.</p>
           <p className="text-gray-500 text-[15px]">Karakambadi Road, Tirupati - 517507</p>
           <p className="text-gray-500 text-[15px] ">Phone: +91 8886644985</p>

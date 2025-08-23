@@ -1,4 +1,5 @@
-import logo from '../assets/react.svg'
+import lightLogo from '../assets/light.png'
+import darkLogo from '../assets/dark.png'
 import { NavLinks } from '../data';
 import { Link } from 'react-router-dom';
 import ToggleDark from './ToggleDark';
@@ -10,9 +11,9 @@ const Navbar = ({isDark, setIsDark}) => {
   return (
     <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-b-1 border-gray-900 z-10`}>
         <div className='flex gap-2 justify-center items-center'>
-            <img src={logo} alt="React Logo" width={30} height={30} style={{borderRadius: '6px'}} />
+            <img src={isDark ? lightLogo : darkLogo} alt="Main Logo" width={50} height={50} style={{marginBottom:2}} />
                         <div>
-                                <h3 className='text-lg font-'>CIS Association</h3>
+                                <h3 className='text-lg mt-2'>CIS Association</h3>
                                 <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
                         </div>
         </div>
