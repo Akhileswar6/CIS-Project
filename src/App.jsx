@@ -30,7 +30,7 @@ function App() {
         <ScrollToTop />
         <section className=''><Navbar isDark={isDark} setIsDark={setIsDark} /></section>
         {/* <Animation /> */}
-        <div className='mt-50'>
+        <div className='mt-30'>
           <Routes>
               <Route path='/' element={<Home isDark={isDark} />} />
               <Route path='/about' element={<About isDark={isDark} />} />

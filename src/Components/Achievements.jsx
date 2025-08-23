@@ -7,7 +7,7 @@ const Achievements = () => {
     return(
         <div className="px-10 pt-10 flex flex-col w-full gap-y-5">
             <div className="text-center space-y-3">
-                <h3 className="text-3xl font-bold">Our Achievements</h3>
+                <h3 className="text-3xl">Our Achievements</h3>
                 <p className="text-gray-500">Celebrating our milestones and contributions to the cybersecurity community</p>
             </div>
             <div className="flex gap-10 py-10 justify-around items-center w-full flex-wrap">

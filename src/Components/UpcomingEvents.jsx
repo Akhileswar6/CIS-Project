@@ -6,7 +6,7 @@ import { UpcomingEventsData } from "../data";
 const UpcomingEvents = () => {
     return(
         <div className="px-10 pt-36 flex flex-col w-full gap-y-5">
-            <h2 className="text-4xl font-bold text-center">Upcoming Events</h2>
+            <h2 className="text-3xl  text-center">Upcoming Events</h2>
             <p className="text-center text-gray-500">Stay ahead in Cyber Security with our cutting edge workshops, competitions and Hackathons.</p>
             <div className="flex  py-10 justify-around items-center w-full flex-wrap">
                 {UpcomingEventsData.slice(0, 2).map((ent) => (
@@ -16,10 +16,10 @@ const UpcomingEvents = () => {
                             <p className="text-[13px] flex items-center gap-1"><CalendarRange size={13} />{ent.date}</p>
                         </div>
                         <div>
-                            <b>{ent.name}</b>
+                            <p className={ent.name === 'Ethical Hacking Workshop' ? 'text-xl' : 'text-xl  '}>{ent.name}</p>
                             <p className="text-[14px] flex items-center text-gray-500 gap-2 mt-2"><Clock size={13} />{ent.time}</p>
                         </div>
-                        <p className="">{ent.description}</p>
+                        <p className="text-[16px]">{ent.description}</p>
                         <button className="cursor-pointer hover:text-green-500 font-medium">Register Now</button>
                     </div>
                 ))}

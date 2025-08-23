@@ -1,6 +1,6 @@
 import { NavLinks } from "../data";
 import { Link } from "react-router-dom";
-import logo from '../assets/react.svg'
+import logo from '../assets/light.png'
 import { SocialLinks } from "../data";
 import { Copyright } from 'lucide-react'
 
@@ -40,13 +40,13 @@ const Footer = ({isDark}) => {
       </div>
       <div className="flex gap-20">
         <div className="basis-1/3 flex flex-col gap-y-3">
-          <div className='flex gap-2 items-center'>
-            <img src={logo} alt="CIS Logo" width={40} height={40} style={{borderRadius: '6px'}} />
-            <div>
-                <h3 className='text-lg'>CIS Association</h3>
-                <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
-            </div>
-          </div>
+      <Link to="/" className='flex gap-1 items-center'>
+        <img src={logo} alt="CIS Logo" width={50} height={50} />
+        <div>
+          <h3 className='text-lg mt-2'>CIS Association</h3>
+          <p className='text-[12px] text-gray-500'>SVCE, Tirupati</p>
+        </div>
+      </Link>
           <p className="text-gray-500 text-[15px]">Empowering Students in CyberSecurity through hands-on learning, Competitions, and community building at Sri Venkateswara College of Engineering.</p>
             
           

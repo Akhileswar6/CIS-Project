@@ -50,22 +50,22 @@ export const UpcomingEventsData = [
 
 export const AssociationDetailsCounts = [
     {
-        img : <Users color="#4da6ff"/>,
+        img : <Users color="#113356ff" size={30}/>,
         name : 'Members',
         count : '50+',
     },
     {
-        img : <Calendar color="#4da6ff"/>,
+        img : <Calendar color="#113356ff" size={30}/>,
         name : 'Events',
         count : '50+',
     },
     {
-        img : <Badge color="#4da6ff"/>,
+        img : <Badge color="#113356ff" size={30}/>,
         name : 'Awards',
         count : '10+',
     },
     {
-        img : <Shield color="#4da6ff"/>,
+        img : <Shield color="#113356ff" size={30}/>,
         name : 'Secure',
         count : '100%',
     },
@@ -74,19 +74,20 @@ export const AssociationDetailsCounts = [
 export const MissionAndVision = [
     {
         name : 'Our Mission',
-        img : <Eye color="blue" />,
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident necessitatibus reiciendis qui sequi impedit, vero quas aut cumque possimus, explicabo facilis, debitis similique nam delectus tempore? Quasi, libero ipsum!',
+        img : <Eye color="#5fa7d4ff" />,
+        description : 'To be the leading CyberSecurity Association that shapes the future of information security through education, innovation, and community engagement. We envision a world where cybersecurity knowledge is accessible to all, fostering a safer digital environment for everyone.',
     },
     {
         name : 'Our Vision',
-        img : <Target color="green" />,
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident necessitatibus reiciendis qui sequi impedit, vero quas aut cumque possimus, explicabo facilis, debitis similique nam delectus tempore? Quasi, libero ipsum!',
+        img : <Target color="#2ed883ff"/>,
+        description : 'To empower students with cutting-edge cybersecurity skills and knowledge and practical skills through hands-on workshops, competitions. We are commmitted to building a strong community of ethical hackers, who will lead the way in protecting digital assets and privacy in an increasingly interconnected world.',
+
     },
 ]
 
 export const OrganizationalStructure = [
     {
-        img : <User />,
+        img : <User color="#5fa7d4ff"/>,
         name : 'President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
@@ -96,8 +97,8 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User  />,
-        name : 'President',
+        img : < User color="#5fa7d4ff"/>,
+        name : 'Vice-President',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
             'Strategic Planning',
@@ -106,8 +107,8 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User />,
-        name : 'President',
+        img : <User color="#5fa7d4ff"/>,
+        name : 'Secretary',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
             'Strategic Planning',
@@ -116,8 +117,8 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User />,
-        name : 'President',
+        img : <User color="#5fa7d4ff"/>,
+        name : 'Treasurer',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
             'Strategic Planning',
@@ -126,8 +127,8 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User />,
-        name : 'President',
+        img : <Users color="#5fa7d4ff"/>,
+        name : 'Promotion Team',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
             'Strategic Planning',
@@ -136,8 +137,8 @@ export const OrganizationalStructure = [
         ]
     },
     {
-        img : <User />,
-        name : 'President',
+        img : <Users color="#5fa7d4ff"/>,
+        name : 'Technical Team',
         work : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae providen',
         resonsibilities : [
             'Strategic Planning',
