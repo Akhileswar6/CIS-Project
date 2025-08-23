@@ -1,5 +1,7 @@
-import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User } from "lucide-react"
+import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User, MailIcon } from "lucide-react"
 import { GiAchievement } from "react-icons/gi"
+import Achievements from "./Components/Achievements"
+import pic1 from './assets/react.svg'
 
 export const NavLinks = [
     {name : 'Home' , link : '/'},
@@ -22,10 +24,10 @@ export const FooterDetails = [
 ]
 
 export const SocialLinks = [
-    {name : 'Mail', link : 'tejayerriboyina@gmail.com', img : <Mail size={16} />},
-    {name : 'LinkedIn', link : 'tejayerriboyina@gmail.com', img : <Linkedin size={16} />},
-    {name : 'GitHub', link : 'tejayerriboyina@gmail.com', img : <Github size={16} />},
-    {name : 'Twitter', link : 'tejayerriboyina@gmail.com', img : <Twitter size={16} />},
+    {name : 'Mail', link : 'tejayerriboyina@gmail.com', img : <Mail size={18} />},
+    {name : 'LinkedIn', link : 'tejayerriboyina@gmail.com', img : <Linkedin size={18} />},
+    {name : 'GitHub', link : 'tejayerriboyina@gmail.com', img : <Github size={18} />},
+    {name : 'Twitter', link : 'tejayerriboyina@gmail.com', img : <Twitter size={18} />},
 ]
 
 export const UpcomingEventsData = [
@@ -174,4 +176,143 @@ export const AchievementsData = [
         name : 'Ethical Hacking Workshop',
         description : 'Learn penetration testing and ethical hacking tools.'
     },
+]
+
+export const TeamsDetailsData = [
+    {
+        name : 'Leadership Team',
+        TeamDetails : [
+            {
+                name : 'Arjun Reddy',
+                role : 'President',
+                branch : 'Cyber Security 3rd Year',
+                img : pic1,
+                description : 'Passionate about cybersecurity research and ethical hacking. Leading the association towards new heights.',
+                skills : [
+                    'Penetration Testing',
+                    'Network Security',
+                    'Leadership',
+                ],
+                achievements : [
+                    'CEH Certified',
+                    'Winner - National CTF 2023',
+                ],
+                socialLinks : [
+                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                ]
+            },
+            {
+                name : 'Arjun Reddy',
+                role : 'President',
+                branch : 'Cyber Security 3rd Year',
+                img : pic1,
+                description : 'Passionate about cybersecurity research and ethical hacking. Leading the association towards new heights.',
+                skills : [
+                    'Penetration Testing',
+                    'Network Security',
+                    'Leadership',
+                ],
+                achievements : [
+                    'CEH Certified',
+                    'Winner - National CTF 2023',
+                ],
+                socialLinks : [
+                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                ]
+            },
+        ]
+    },
+    {
+        name : 'Technical Team',
+        TeamDetails : [
+            {
+                name : 'Arjun Reddy',
+                role : 'President',
+                branch : 'Cyber Security 3rd Year',
+                img : pic1,
+                description : 'Passionate about cybersecurity research and ethical hacking. Leading the association towards new heights.',
+                skills : [
+                    'Penetration Testing',
+                    'Network Security',
+                    'Leadership',
+                ],
+                achievements : [
+                    'CEH Certified',
+                    'Winner - National CTF 2023',
+                ],
+                socialLinks : [
+                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                ]
+            },
+            {
+                name : 'Arjun Reddy',
+                role : 'President',
+                branch : 'Cyber Security 3rd Year',
+                img : pic1,
+                description : 'Passionate about cybersecurity research and ethical hacking. Leading the association towards new heights.',
+                skills : [
+                    'Penetration Testing',
+                    'Network Security',
+                    'Leadership',
+                ],
+                achievements : [
+                    'CEH Certified',
+                    'Winner - National CTF 2023',
+                ],
+                socialLinks : [
+                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                ]
+            },
+            {
+                name : 'Arjun Reddy',
+                role : 'President',
+                branch : 'Cyber Security 3rd Year',
+                img : pic1,
+                description : 'Passionate about cybersecurity research and ethical hacking. Leading the association towards new heights.',
+                skills : [
+                    'Penetration Testing',
+                    'Network Security',
+                    'Leadership',
+                ],
+                achievements : [
+                    'CEH Certified',
+                    'Winner - National CTF 2023',
+                ],
+                socialLinks : [
+                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                ]
+            },
+            {
+                name : 'Arjun Reddy',
+                role : 'President',
+                branch : 'Cyber Security 3rd Year',
+                img : pic1,
+                description : 'Passionate about cybersecurity research and ethical hacking. Leading the association towards new heights.',
+                skills : [
+                    'Penetration Testing',
+                    'Network Security',
+                    'Leadership',
+                ],
+                achievements : [
+                    'CEH Certified',
+                    'Winner - National CTF 2023',
+                ],
+                socialLinks : [
+                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                ]
+            },
+        ]
+    }
 ]
