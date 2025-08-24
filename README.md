@@ -1,12 +1,73 @@
-# React + Vite
+CIS Association Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    A Cyber Security Association Platform designed to manage and showcase all the activities, events, and resources related to the CIS Association. This platform provides a centralized hub for members, alumni, and organizers to stay connected and updated.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    📌 Events Management – Display upcoming and past events.
 
-## Expanding the ESLint configuration
+    📚 Resources Section – Share learning materials, research papers, and cybersecurity resources.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    👥 Member Profiles – Highlight members, alumni, and their contributions.
+
+    📰 Announcements & News – Keep the community updated with the latest happenings.
+
+    🔒 Cybersecurity Focused – A platform tailored specifically for cybersecurity enthusiasts.
+
+🛠️ Tech Stack
+
+    Frontend: React + Tailwind CSS
+
+    Deployment: Vercel
+
+    Data Handling: Currently static (via data.jsx), will be integrated with a database in future.
+
+📂 Project Structure
+
+    src/
+    ├── components/      # Reusable UI components  
+    ├── pages/           # Page-level components (Home, Events, Resources, etc.)  
+    ├── data.jsx         # Static data for events, resources, members  
+    ├── App.jsx          # Main app configuration  
+    └── index.js         # Entry point  
+
+📄 About data.jsx
+
+    The data.jsx file currently stores static sample data for testing and development purposes.
+    It includes:
+
+    Events Data – Titles, descriptions, dates of cybersecurity events.
+
+    Resources Data – Links and details of learning resources.
+
+    Members Data – Sample profiles of association members.
+
+    This will later be replaced with dynamic data from a database (MongoDB/MySQL/PostgreSQL).
+
+🌍 Future Enhancements
+
+    ✅ User authentication (Admin, Members, Guests).
+
+    ✅ Database integration for dynamic event & resource management.
+
+    ✅ Dashboard for admins to add/manage content.
+
+    ✅ Chat or discussion forum for members.
+
+📦 Installation & Setup
+
+    # Clone the repo
+    git clone https://github.com/your-username/CIS-Project.git
+
+    # Navigate into the project
+    cd CIS-Project
+
+    # Install dependencies
+    npm install
+
+    # Start development server
+    npm run dev
+
+👨‍💻 Contributors
+
+    CIS Association Development Team
