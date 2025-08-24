@@ -1,9 +1,11 @@
 
 
 
-const Resources = () => {
+const Resources = ({isDark}) => {
     return(
-        <div>Resources</div>
+        <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} flex flex-col gap-5`}>
+            Re
+        </div>
     );
 };
 

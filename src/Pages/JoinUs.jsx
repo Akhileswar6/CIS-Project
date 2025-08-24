@@ -1,9 +1,13 @@
 
+import JoinForm from "../Components/JoinForm";
 
 
-const JoinUs = () => {
+
+const JoinUs = ({isDark}) => {
     return(
-        <div>JoinUs</div>
+        <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} flex flex-col gap-5`}>
+            <JoinForm />
+        </div>
     );
 };
 

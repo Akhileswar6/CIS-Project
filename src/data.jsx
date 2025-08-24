@@ -1,8 +1,9 @@
-import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User, MailIcon, Trophy, BookOpen, Lightbulb } from "lucide-react"
+import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User, MailIcon, Trophy, BookOpen, Lightbulb, Contact, MapPin, Book, Handshake } from "lucide-react"
 import { GiAchievement } from "react-icons/gi"
 import Achievements from "./Components/Achievements"
 import pic1 from './assets/react.svg'
 import pic2 from './assets/light.png'
+import { BsWhatsapp } from "react-icons/bs"
 
 
 
@@ -483,5 +484,75 @@ export const PastEventsData = [
         ],
         participants : '45',
         rating : '4.8',
+    },
+]
+
+
+
+// ==========================
+// GetinTouch Details
+// ==========================
+
+export const MailDetails = [
+    {
+        heading : 'Mail Us',
+        img : <Mail color="blue" />,
+        links : [
+            {name : 'General Inquiries', link : 'tejayerriboyina@gmail.com', value : 'tejayerriboyina@gmail.com'},
+            {name : 'General Inquiries', link : 'tejayerriboyina@gmail.com', value : 'tejayerriboyina@gmail.com'},
+            {name : 'General Inquiries', link : 'tejayerriboyina@gmail.com', value : 'tejayerriboyina@gmail.com'},
+        ]
+    }
+]
+
+export const CommunityDetails = [
+    {
+        heading : 'Join Our Community',
+        img : <Users color="green" />,
+        links : [
+            {name : 'Whatsapp Group', img : <Twitter /> , link : 'tejayerriboyina@gmail.com', value : 'tejayerr'},
+            {name : 'Whatsapp Group', img : <Twitter /> , link : 'tejayerriboyina@gmail.com', value : 'tejayerr'},
+            {name : 'Whatsapp Group', img : <Twitter /> , link : 'tejayerriboyina@gmail.com', value : 'tejayerr'},
+        ]
+    }
+]
+
+export const AddressDetails = [
+    {
+        heading : 'Visit Us',
+        img : <MapPin color="blue" />,
+        Address : [
+            {name : 'College', value : 'Scve'},
+            {name : 'Address', value : 'Tirupati - Renigunta Road Tirupati, Andhra Pradesh 517507 India'},
+            {name : 'Phone', value : '9014389269'},
+        ]
+    }
+]
+
+
+// ==========================
+// JoinUs Details
+// ==========================
+
+export const WhyJoinUs = [
+    {
+        name : 'Hands-on Learning',
+        description : 'Practical experience with real-world cybersecurity tools and techniques',
+        img : <Shield />,
+    },
+    {
+        name : 'Hands-on Learning',
+        description : 'Practical experience with real-world cybersecurity tools and techniques',
+        img : <Handshake />,
+    },
+    {
+        name : 'Hands-on Learning',
+        description : 'Practical experience with real-world cybersecurity tools and techniques',
+        img : <Trophy />,
+    },
+    {
+        name : 'Hands-on Learning',
+        description : 'Practical experience with real-world cybersecurity tools and techniques',
+        img : <Book />,
     },
 ]

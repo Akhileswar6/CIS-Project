@@ -36,9 +36,9 @@ function App() {
               <Route path='/about' element={<About isDark={isDark} />} />
               <Route path='/teams' element={<Teams isDark={isDark} />} />
               <Route path='/events' element={<Events isDark={isDark} />} />
-              <Route path='/resources' element={<Resources />} />
-              <Route path='/contact' element={<Contact />} />
-              <Route path='/joinus' element={<JoinUs />} />
+              <Route path='/resources' element={<Resources isDark={isDark} />} />
+              <Route path='/contact' element={<Contact isDark={isDark} />} />
+              <Route path='/joinus' element={<JoinUs isDark={isDark} />} />
               <Route path='*' element={<NotFound />} />
           </Routes>
         </div>
