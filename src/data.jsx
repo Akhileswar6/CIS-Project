@@ -1,4 +1,4 @@
-import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User, MailIcon, Trophy, BookOpen, Lightbulb, Contact, MapPin, Book, Handshake } from "lucide-react"
+import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twitter, Users, Eye, User, MailIcon, Trophy, BookOpen, Lightbulb, Contact, MapPin, Book, Handshake, Wifi, Search, Globe, Terminal } from "lucide-react"
 import { GiAchievement } from "react-icons/gi"
 import Achievements from "./Components/Achievements"
 import pic1 from './assets/react.svg'
@@ -554,5 +554,46 @@ export const WhyJoinUs = [
         name : 'Hands-on Learning',
         description : 'Practical experience with real-world cybersecurity tools and techniques',
         img : <Book />,
+    },
+]
+
+
+
+// ==========================
+// Security Tools With Guides
+// ==========================
+
+export const SecurityToolsWithGuides = [
+    {
+        topic : 'Network Analysis',
+        name : 'Wireshark',
+        img : <Wifi />,
+        description : 'Network protocol analyzer for troubleshooting and analysis',
+        status : 'Intermediate',
+        rating : '4.9',
+    },
+    {
+        topic : 'Network Analysis',
+        name : 'Wireshark',
+        img : <Search />,
+        description : 'Network protocol analyzer for troubleshooting and analysis',
+        status : 'Intermediate',
+        rating : '4.9',
+    },
+    {
+        topic : 'Network Analysis',
+        name : 'Wireshark',
+        img : <Globe />,
+        description : 'Network protocol analyzer for troubleshooting and analysis',
+        status : 'Intermediate',
+        rating : '4.9',
+    },
+    {
+        topic : 'Network Analysis',
+        name : 'Wireshark',
+        img : <Terminal />,
+        description : 'Network protocol analyzer for troubleshooting and analysis',
+        status : 'Intermediate',
+        rating : '4.9',
     },
 ]

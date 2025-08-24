@@ -14,8 +14,8 @@ const Navbar = ({isDark, setIsDark}) => {
                 <Link to="/" className='ml-1 flex gap-2 items-center'>
                     <img src={isDark ? lightLogo : darkLogo} alt="Main Logo" width={40} height={40}  />
                     <div>
-                        <h3 className='text-lg '>CIS Association</h3>
-                        <p className='text-[12px] text-gray-500 '>SVCE, Tirupati</p>
+                        <h3 className='text-lg max-lg:text-sm'>CIS Association</h3>
+                        <p className='text-[12px] text-gray-500 max-lg:text-[10px]'>SVCE, Tirupati</p>
                     </div>
                 </Link>
         </div>
@@ -23,7 +23,9 @@ const Navbar = ({isDark, setIsDark}) => {
         <div>
             <ul className='flex items-center justify-center gap-x-10 text-md mr-2'>
                 {NavLinks.map((link)=>(
-                    <li className='hover:text-blue-400 transition-colors delay-100' key={link.name}><Link to={link.link}>{link.name}</Link></li>
+                    <li className='hover:text-blue-400 transition-colors delay-100' key={link.name}>
+                        <Link to={link.link}>{link.name}</Link>
+                    </li>
                 ))} 
                 <ToggleDark isDark={isDark} setIsDark={setIsDark} />
             </ul>

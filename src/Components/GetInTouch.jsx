@@ -7,10 +7,10 @@ const GetInTouch = () => {
     return(
         <div>
             <div className="flex flex-col justify-center items-center gap-2">
-                <h3 className="text-3xl font-semibold">Get In Touch</h3>
-                <p className="text-gray-500">Connect with us through various channels and stay updated with the latest cybersecurity trends</p>
+                <h3 className="text-3xl font-semibold max-lg:text-2xl">Get In Touch</h3>
+                <p className="text-gray-500 max-lg:text-sm">Connect with us through various channels and stay updated with the latest cybersecurity trends</p>
             </div>
-            <div className="grid grid-cols-3 gap-3 px-10 py-10">
+            <div className="grid grid-cols-3 gap-3 px-10 py-10 max-lg:grid-cols-2">
                 {MailDetails.map((section, index) => (
                     <div key={index} className="border-1 border-gray-900 flex flex-col justify-between p-5 gap-5">
                         <div className="p-2 bg-[#012D4B] w-fit rounded-lg">{section.img}</div>
