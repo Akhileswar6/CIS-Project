@@ -10,7 +10,7 @@ const Achievements = () => {
                 <h3 className="text-3xl">Our Achievements</h3>
                 <p className="text-gray-500">Celebrating our milestones and contributions to the cybersecurity community</p>
             </div>
-            <div className="flex gap-10 py-10 justify-around items-center w-full flex-wrap">
+            <div className="grid grid-cols-3 gap-10 py-10 justify-around items-center w-full">
                 {AchievementsData.map((ent, index) => (
                     <div className="border-1 p-4 border-gray-900 rounded-md flex flex-col gap-y-7 basis-1/3" key={index}>
                         <div className="flex text-[14px] justify-between">

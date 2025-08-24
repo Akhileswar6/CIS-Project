@@ -1,4 +1,4 @@
-import { Users, Badge } from "lucide-react"
+import { Users, Badge, Calendar } from "lucide-react"
 import { PastEventsData } from "../data"
 import { useState } from "react";
 
@@ -16,27 +16,27 @@ const PastEvents = () => {
             <h2>Past Events</h2>
             <div className="grid py-10 grid-cols-2 gap-5">
                 {dataSet.map((ent, index) => (
-                    <div key={index} className="border-1 p-5 rounded-md">
+                    <div key={index} className="border-1 p-5 rounded-md border-gray-900 flex flex-col justify-between">
                         <div className="flex justify-between items-center">
-                            <p>{ent.program}</p>
-                            <p>{ent.date}</p>
+                            <p className="bg-green-500 px-2 rounded-md text-sm">{ent.program}</p>
+                            <p className="flex gap-1 text-[10px] items-center justify-center"><Calendar size={16} />{ent.date}</p>
                         </div>
-                        <h4>{ent.name}</h4>
-                        <p>{ent.tag}</p>
-                        <div className="grid grid-cols-3">
-                            {ent.images.map((img, index) => (
-                                <img key={index} src={img} alt="" />
+                        <h4 className="py-3 text-md font-semibold">{ent.name}</h4>
+                        <p className="text-sm">{ent.tag}</p>
+                        <div className="grid grid-cols-3 py-4 gap-2">
+                            {ent.images.slice(0, 3).map((img, index) => (
+                                <img key={index} src={img} alt="" width={150} height={24} className="rounded-md" />
                             ))}
                         </div>
-                        <p>Event Highlights:</p>
-                        <ul className="flex flex-wrap gap-x-10 gap-y-1 pl-5 list-disc pt-2">
+                        <p className="text-sm text-gray-500">Event Highlights:</p>
+                        <ul className="flex flex-wrap gap-x-10 gap-y-1 pl-5 list-disc pt-2 text-[12px] marker:text-green-500">
                             {ent.highlights.map((highlight, index) => (
                                 <li key={index}>{highlight}</li>
                             ))}
                         </ul>
-                        <div className="flex justify-between items-center py-3">
-                            <p className="flex items-center justify-center gap-2"><Users /> {ent.participants} participants</p>
-                            <p className="flex items-center justify-center gap-2"><Badge /> {ent.rating}/5.0 rating</p>
+                        <div className="flex justify-between items-center pt-4 text-sm">
+                            <p className="flex items-center justify-center gap-2 text-gray-500"><Users size={16} /> {ent.participants} participants</p>
+                            <p className="flex items-center justify-center gap-2 text-green-500"><Badge size={16} /> {ent.rating}/5.0 rating</p>
                         </div>
                     </div>
                 ))}

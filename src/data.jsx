@@ -2,6 +2,7 @@ import { Badge, Calendar, Github, Instagram, Linkedin, Mail, Shield, Target, Twi
 import { GiAchievement } from "react-icons/gi"
 import Achievements from "./Components/Achievements"
 import pic1 from './assets/react.svg'
+import pic2 from './assets/light.png'
 
 
 
@@ -449,9 +450,11 @@ export const PastEventsData = [
         name : 'Advanced Malware Analysis Workshop',
         tag : 'Deep dive into malware reverse engineering and analysis techniques',
         images : [
-            pic1,
-            pic1, 
-            pic1
+            pic2,
+            pic2, 
+            pic2,
+            pic2,
+            pic2,
         ],
         highlights : [
             'Static and dynamic analysis',

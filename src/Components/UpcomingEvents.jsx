@@ -10,7 +10,7 @@ const UpcomingEvents = () => {
             <p className="text-center text-gray-500">Stay ahead in Cyber Security with our cutting edge workshops, competitions and Hackathons.</p>
             <div className="grid grid-cols-3 py-10 gap-4 w-full">
                 {UpcomingEventsData.map((ent) => (
-                    <div className="border-1 p-5 border-gray-900 rounded-xl flex flex-col gap-y-7 basis-1/3">
+                    <div className="border-1 p-5 border-gray-900 rounded-xl flex flex-col gap-y-7">
                         <div className="flex text-[14px] justify-between">
                             <p className="bg-green-500 px-2 rounded-md">{ent.label}</p>
                             <p className="text-[13px] flex items-center gap-1"><CalendarRange size={13} />{ent.date}</p>
@@ -19,7 +19,7 @@ const UpcomingEvents = () => {
                             <p className={ent.name === 'Ethical Hacking Workshop' ? 'text-xl' : 'text-xl  '}>{ent.name}</p>
                             <p className="text-[14px] flex items-center text-gray-500 gap-2 mt-2"><Clock size={13} />{ent.time}</p>
                         </div>
-                        <p className="text-[16px]">{ent.description}</p>
+                        <p className="text-sm">{ent.description}</p>
                         <button className="cursor-pointer hover:text-green-500 font-medium">Register Now</button>
                     </div>
                 ))}
