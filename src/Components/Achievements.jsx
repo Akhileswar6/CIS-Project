@@ -5,12 +5,12 @@ import { AchievementsData } from "../data"
 
 const Achievements = () => {
     return(
-        <div className="px-10 pt-10 flex flex-col w-full gap-y-5">
+        <div className="px-10 pt-10 flex flex-col w-full gap-y-5 max-md:px-3">
             <div className="text-center space-y-3">
-                <h3 className="text-3xl font-semibold max-lg:text-2xl">Our Achievements</h3>
-                <p className="text-gray-500 max-lg:text-sm">Celebrating our milestones and contributions to the cybersecurity community</p>
+                <h3 className="text-3xl font-semibold max-lg:text-2xl max-md:text-xl">Our Achievements</h3>
+                <p className="text-gray-500 max-lg:text-base text-lg max-md:text-sm">Celebrating our milestones and contributions to the cybersecurity community</p>
             </div>
-            <div className="grid grid-cols-3 gap-10 py-10 justify-around items-center w-full max-lg:gap-5 max-lg:grid-cols-2">
+            <div className="grid grid-cols-3 gap-10 py-10 justify-around items-center w-full max-lg:gap-5 max-lg:grid-cols-2 max-sm:grid-cols-1">
                 {AchievementsData.map((ent, index) => (
                     <div className="border-1 p-4 border-gray-900 rounded-md flex flex-col gap-y-7 basis-1/3" key={index}>
                         <div className="flex text-[14px] justify-between">
@@ -18,9 +18,9 @@ const Achievements = () => {
                             <p className="text-[13px] flex items-center gap-1">{ent.year}</p>
                         </div>
                         <div>
-                            <b className="flex gap-1">{ent.img}{ent.name}</b>
+                            <b className="flex gap-1 max-md:text-base text-lg">{ent.img}{ent.name}</b>
                         </div>
-                        <p className="text-gray-500">{ent.description}</p>
+                        <p className="text-gray-500 max-sm:text-sm">{ent.description}</p>
                     </div>
                 ))}
             </div>

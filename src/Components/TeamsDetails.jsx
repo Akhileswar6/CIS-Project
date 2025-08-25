@@ -7,15 +7,15 @@ import { TeamsDetailsData } from '../data';
 
 const TeamsDetails = () => {
     return(
-        <div className='flex flex-col text-center gap-20 py-7 px-15'>
+        <div className='flex flex-col text-center gap-20 py-7 px-15 max-md:px-5 max-md:gap-15'>
             {TeamsDetailsData.map((team, index) => (
-                <div key={index} className='flex flex-col gap-5 py-5'>
-                    <h3 className='text-xl font-semibold'>{team.name}</h3>
-                    <div className='grid gap-7 grid-cols-3 pt-10 max-lg:grid-cols-2'>
+                <div key={index} className='flex flex-col gap-5 py-3 max-md:gap-1'>
+                    <h3 className='text-xl font-semibold max-md:text-lg'>{team.name}</h3>
+                    <div className='grid gap-7 grid-cols-3 pt-10 max-lg:grid-cols-2 max-md:gap-3'>
                         {team.TeamDetails.map((person, index) => (
-                            <div key={index} className='flex flex-col justify-center items-center px-10 gap-2 border-1 py-5 rounded-md border-gray-900'>
+                            <div key={index} className='flex flex-col justify-center items-center px-10 gap-2 border-1 py-5 rounded-md border-gray-900 max-md:px-2 max-md:gap-1'>
                                 <div className=''><img src={person.img} alt="" /></div>
-                                <h6 className='text-lg font-semibold pt-3'>{person.name}</h6>
+                                <h6 className='text-lg font-semibold pt-3 max-md:text-base'>{person.name}</h6>
                                 <p className='text-blue-400 text-sm'>{person.role}</p>
                                 <p className='text-gray-500 text-sm'>{person.branch}</p>
                                 <p className='text-sm pt-5'>{person.description}</p>

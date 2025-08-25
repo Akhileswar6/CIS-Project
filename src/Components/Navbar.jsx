@@ -14,7 +14,7 @@ const Navbar = ({isDark, setIsDark}) => {
     const [display, setDisplay] = useState(false);
 
   return (
-    <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-b-1 border-gray-900 z-10`}>
+    <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-gray-900 z-10 max-sm:p-1`}>
         <div className='flex gap-2 justify-center items-center'>
                 <Link to="/" className='ml-1 flex gap-2 items-center'>
                     <img src={isDark ? lightLogo : darkLogo} alt="Main Logo" width={40} height={40}  />

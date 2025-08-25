@@ -22,7 +22,7 @@ import './App.css'
 
 function App() {
 
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   return (
     <div className={`${isDark ? 'bg-black' : 'bg-white'} min-h-screen flex flex-col justify-between gap-5`}>

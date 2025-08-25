@@ -8,8 +8,8 @@ import { Copyright } from 'lucide-react'
 
 const Footer = ({isDark}) => {
   return (
-    <div className={`bg-black px-5 py-10 text-white flex flex-col gap-y-10`}>
-  <div className="flex flex-col gap-y-3 py-7 ml-4">
+    <div className={`bg-black px-5 py-10 text-white flex flex-col gap-y-10 hidden`}>
+      <div className="flex flex-col gap-y-3 py-7 ml-4">
         <div className="flex gap-30">
           <div>
             <h4 style={{fontSize:18, fontWeight:500}} className="text-white-500 mb-2">Quick Links</h4>
