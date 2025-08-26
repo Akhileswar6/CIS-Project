@@ -12,6 +12,10 @@ import { useState } from 'react';
 const Navbar = ({isDark, setIsDark}) => {
 
     const [display, setDisplay] = useState(false);
+    
+    const handleLinkClick = () => {
+        setDisplay(false);
+    }
 
   return (
     <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} p-3 fixed w-full top-0 flex justify-between items-center border-gray-900 z-10 max-sm:p-1`}>
@@ -37,15 +41,15 @@ const Navbar = ({isDark, setIsDark}) => {
         </div>
         <div className='hidden max-md:flex justify-center items-center gap-3'>
             {display ? 
-                <ul className='bg-white/90 text-black py-5 flex flex-col absolute w-full right-0 top-[100%] z-1 items-center justify-center gap-x-10'>
+                <ul className='bg-white/90 text-black py-5 flex flex-col absolute w-full right-0 top-[100%] z-1 items-center justify-center gap-y-1 font-semibold'>
                     {NavLinks.map((link)=>(
-                        <li className='hover:text-blue-400 transition-colors delay-100' key={link.name}>
+                        <li onClick={() => handleLinkClick()} className='hover:text-blue-400 transition-colors delay-100' key={link.name}>
                             <Link to={link.link}>{link.name}</Link>
                         </li>
                     ))} 
                 </ul> : null
             }
-            <button onClick={() => setDisplay(!display)}>{display ? <X /> : <Menu />}</button>
+            <button onClick={() => setDisplay(!display)} className='cursor-pointer'>{display ? <X /> : <Menu />}</button>
             <ToggleDark isDark={isDark} setIsDark={setIsDark} />
         </div>
     </div>

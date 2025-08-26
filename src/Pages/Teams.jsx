@@ -3,7 +3,7 @@ import TeamsDetails from "../Components/TeamsDetails";
 
 
 const Teams = ({isDark}) => {
-    console.log(isDark)
+    
     return(
         <div className={`${isDark ? 'bg-black text-white' : 'bg-white text-black'} flex flex-col gap-3`}>
             <div className="flex flex-col justify-center items-center px-10 max-md:px-5">

@@ -12,9 +12,9 @@ const PastEvents = () => {
     const dataSet = showAll ? PastEventsData : PastEventsData.slice(0, 4);
 
     return(
-        <div className="flex flex-col justify-center items-center px-10 py-10">
-            <h3 className="text-3xl font-semibold">Past Events</h3>
-            <div className="grid py-10 grid-cols-2 gap-5">
+        <div className="flex flex-col justify-center items-center px-10 py-10 max-md:px-3">
+            <h3 className="text-3xl font-semibold max-lg:text-2xl max-md:text-xl">Past Events</h3>
+            <div className="grid py-10 grid-cols-2 gap-5 max-md:py-5">
                 {dataSet.map((ent, index) => (
                     <div key={index} className="border-1 p-5 rounded-md border-gray-900 flex flex-col justify-between">
                         <div className="flex justify-between items-center">

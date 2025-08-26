@@ -5,7 +5,7 @@ import { UpcomingEventsData } from "../data";
 
 const UpcomingEvents = () => {
     return(
-        <div className="px-10 pt-36 flex flex-col w-full gap-y-2 max-md:px-3">
+        <div className="px-10 pt-36 flex flex-col w-full gap-y-2 max-md:px-3 max-sm:pt-26">
             <h2 className="text-3xl text-center font-semibold max-lg:text-2xl max-md:text-xl">Upcoming Events</h2>
             <p className="text-center text-gray-500 text-lg max-lg:text-base max-md:text-sm">Stay ahead in Cyber Security with our cutting edge workshops, competitions and Hackathons.</p>
             <div className="grid grid-cols-3 py-10 gap-4 w-full max-lg:grid-cols-2 max-sm:grid-cols-1 max-md:gap-2">
