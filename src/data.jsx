@@ -485,6 +485,25 @@ export const PastEventsData = [
         participants : '45',
         rating : '4.8',
     },
+    {
+        program : 'Workshop',
+        date : 'Feb 20, 2025',
+        name : 'Advanced Malware Analysis Workshop',
+        tag : 'Deep dive into malware reverse engineering and analysis techniques',
+        images : [
+            pic1,
+            pic1, 
+            pic1
+        ],
+        highlights : [
+            'Static and dynamic analysis',
+            'Sandbox environments',
+            'Real malware samples',
+            'Industry tools'
+        ],
+        participants : '45',
+        rating : '4.8',
+    },
 ]
 
 
