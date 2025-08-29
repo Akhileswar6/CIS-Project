@@ -10,12 +10,12 @@ const JoinForm = () => {
                 <h3 className="text-3xl font-semibold max-lg:text-2xl max-md:text-xl">Join the <span>CIS Association</span></h3>
                 <p className="text-gray-500 text-lg max-lg:text-base">Become part of our cybersecurity community and enhance your skills in information security</p>
             </div>
-            <div className="flex flex-col px-10 pt-30 gap-10 justify-center max-md:px-3">
+            <div className="flex flex-col px-10 pt-30 gap-15 justify-center max-md:px-3">
                 <div className="flex flex-col justify-center gap-3 items-center">
                     <h4 className="text-2xl font-semibold pb-3 max-lg:text-xl max-md:text-lg">Why Join Us?</h4>
                     <div className="grid grid-cols-1 gap-2 max-md:grid-cols-2">
                         {WhyJoinUs.map((res, index) => (
-                            <div key={index} className="flex gap-2 rounded-md bg-gray-600 text-white py-7 px-4 max-sm:py-2 max-sm:px-1 max-sm:flex-col">
+                            <div key={index} className="flex gap-2 rounded-md bg-gray-600 text-white py-7 px-4 max-sm:py-2 max-sm:px-2 max-sm:flex-col">
                                 <div className="">{res.img}</div>
                                 <span className="flex flex-col gap-2">
                                     <p className="text-lg font-bold max-sm:text-sm">{res.name}</p>
