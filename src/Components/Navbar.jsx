@@ -24,7 +24,7 @@ const Navbar = ({isDark, setIsDark}) => {
                     <img src={isDark ? lightLogo : darkLogo} alt="Main Logo" width={40} height={40}  />
                     <div>
                         <h3 className='text-lg max-lg:text-base'>CIS Association</h3>
-                        <p className='text-[12px] text-gray-500 max-lg:text-[10px]'>SVCE, Tirupati</p>
+                        <p className='text-xs text-gray-500 max-lg:text-[10px]'>SVCE, Tirupati</p>
                     </div>
                 </Link>
         </div>
