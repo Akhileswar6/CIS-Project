@@ -266,9 +266,9 @@ export const TeamsDetailsData = [
                     'Winner - National CTF 2023',
                 ],
                 socialLinks : [
-                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
-                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
-                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                    {name : 'Mail', img :<MailIcon size={18} className="max-sm:w-3" />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} className="max-sm:w-3" />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} className="max-sm:w-3" />, link : 'www.github.com'},
                 ]
             },
             {
@@ -287,9 +287,9 @@ export const TeamsDetailsData = [
                     'Winner - National CTF 2023',
                 ],
                 socialLinks : [
-                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
-                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
-                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                    {name : 'Mail', img :<MailIcon size={18} className="max-sm:w-3" />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} className="max-sm:w-3" />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} className="max-sm:w-3" />, link : 'www.github.com'},
                 ]
             },
         ]
@@ -313,9 +313,9 @@ export const TeamsDetailsData = [
                     'Winner - National CTF 2023',
                 ],
                 socialLinks : [
-                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
-                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
-                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                    {name : 'Mail', img :<MailIcon size={18} className="max-sm:w-3" />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} className="max-sm:w-3" />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} className="max-sm:w-3" />, link : 'www.github.com'},
                 ]
             },
             {
@@ -334,9 +334,9 @@ export const TeamsDetailsData = [
                     'Winner - National CTF 2023',
                 ],
                 socialLinks : [
-                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
-                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
-                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                    {name : 'Mail', img :<MailIcon size={18} className="max-sm:w-3" />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} className="max-sm:w-3" />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} className="max-sm:w-3" />, link : 'www.github.com'},
                 ]
             },
             {
@@ -355,9 +355,9 @@ export const TeamsDetailsData = [
                     'Winner - National CTF 2023',
                 ],
                 socialLinks : [
-                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
-                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
-                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                    {name : 'Mail', img :<MailIcon size={18} className="max-sm:w-3" />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} className="max-sm:w-3" />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} className="max-sm:w-3" />, link : 'www.github.com'},
                 ]
             },
             {
@@ -376,9 +376,9 @@ export const TeamsDetailsData = [
                     'Winner - National CTF 2023',
                 ],
                 socialLinks : [
-                    {name : 'Mail', img :<MailIcon size={18} />, link : 'tejayerriboyina@gmail.com'},
-                    {name : 'Mail', img :<Linkedin size={18} />, link : 'www.linkedin.com'},
-                    {name : 'Mail', img :<Github size={18} />, link : 'www.github.com'},
+                    {name : 'Mail', img :<MailIcon size={18} className="max-sm:w-3" />, link : 'tejayerriboyina@gmail.com'},
+                    {name : 'Mail', img :<Linkedin size={18} className="max-sm:w-3" />, link : 'www.linkedin.com'},
+                    {name : 'Mail', img :<Github size={18} className="max-sm:w-3" />, link : 'www.github.com'},
                 ]
             },
         ]

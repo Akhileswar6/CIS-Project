@@ -45,7 +45,7 @@ const GetInTouch = () => {
                         <div className="p-2 bg-[#012D4B] w-fit rounded-lg">{section.img}</div>
                         <h5 className="text-lg max-lg:text-base font-semibold">{section.heading}</h5>
                         {section.Address.map((ent, index) => (
-                            <span className="text-sm flex flex-col gap-1">
+                            <span key={index} className="text-sm flex flex-col gap-1">
                                 <p className="text-gray-500">{ent.name}</p>
                                 <h6>{ent.value}</h6>
                             </span>

@@ -7,7 +7,6 @@ const ToggleDark = ({isDark, setIsDark}) => {
 
     const handleClick = () => {
         setIsDark(!isDark);
-        console.log(isDark);
     }
 
     return(

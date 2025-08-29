@@ -28,7 +28,7 @@ const TeamsDetails = () => {
                                 <p className='text-gray-500 pt-5 max-sm:pt-2'>Achievements</p>
                                 <ul className='flex flex-col gap-1'>
                                     {person.achievements.map((achievement, index) => (
-                                        <li key={index} className='flex gap-2 items-center justify-start'><Badge /> {achievement}</li>
+                                        <li key={index} className='flex gap-2 items-center max-sm:gap-1'><Badge className='max-sm:w-3' /> {achievement}</li>
                                     ))}
                                 </ul>
                                 <ul className='flex justify-around pt-3 gap-x-5'>
