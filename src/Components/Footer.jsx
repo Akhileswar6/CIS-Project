@@ -2,7 +2,7 @@ import { NavLinks } from "../data";
 import { Link } from "react-router-dom";
 import logo from '../assets/light.png'
 import { SocialLinks } from "../data";
-import { Copyright } from 'lucide-react'
+import { Copyright, Home } from 'lucide-react'
 
 
 
@@ -38,8 +38,8 @@ const Footer = ({isDark}) => {
           
         </div>
       </div> */}
-      <div className="flex gap-20 max-md:gap-10 flex-wrap">
-        <div className="flex flex-col gap-y-3">
+      <div className="flex gap-20 max-md:gap-10 max-sm:flex-wrap">
+        <div className="flex flex-col gap-y-3 basis-1/2">
           <Link to="/" className='flex gap-2 items-center'>
             <img src={logo} alt="CIS Logo" width={24} height={24} />
             <div>
@@ -57,8 +57,8 @@ const Footer = ({isDark}) => {
           </div>
         </div>
         <div className="text-sm flex flex-col gap-1">
-          <h3 style={{fontSize:18, fontWeight:500}}className="text-white-500 text-sm">College Information</h3>
-          <p style={{fontSize:15}}className="text-sm"> Sri Venkateshwara College of Engineering.</p>
+          <h3 style={{fontSize:18, fontWeight:500}}className="text-white-500 text-sm flex items-center gap-x-2"><Home size={16} />College Information</h3>
+          <p style={{fontSize:15}}className="text-sm text-gray-500"> Sri Venkateshwara College of Engineering.</p>
           <p className="text-gray-500">Karakambadi Road, Tirupati - 517507</p>
           <p className="text-gray-500">Phone: +91 8886644985</p>
           <p className="text-gray-500">Website: <a href="https://svce.edu.in" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">svce.edu.in</a></p>
