@@ -11,7 +11,7 @@ const ToggleDark = ({isDark, setIsDark}) => {
 
     return(
         <div>
-            <button onClick={() => handleClick()} className="cursor-pointer">
+            <button onClick={() => handleClick()} className="cursor-pointer flex items-center justify-center max-md:w-4">
                 {isDark ? <Moon /> : <Sun />}
             </button>
         </div>

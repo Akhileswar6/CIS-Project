@@ -41,15 +41,16 @@ const Navbar = ({isDark, setIsDark}) => {
         </div>
         <div className='hidden max-md:flex justify-center items-center gap-3'>
             {display ? 
-                <ul className='bg-white/90 text-black py-5 flex flex-col absolute w-full right-0 top-[100%] z-1 items-center justify-center gap-y-1 font-semibold'>
+                <ul className='bg-white/90 text-black py-5 flex flex-col absolute w-full right-0 top-[100%] z-1 items-center justify-center gap-y-1 font-semibold animate'>
                     {NavLinks.map((link)=>(
                         <li onClick={() => handleLinkClick()} className='hover:text-blue-400 transition-colors delay-100' key={link.name}>
                             <Link to={link.link}>{link.name}</Link>
                         </li>
                     ))} 
+                    <X onClick={() => setDisplay(!display)} className='cursor-pointer' />
                 </ul> : null
             }
-            <button onClick={() => setDisplay(!display)} className='cursor-pointer'>{display ? <X /> : <Menu />}</button>
+            <button onClick={() => setDisplay(!display)} className='cursor-pointer'>{display ? <X size={17} /> : <Menu size={17} />}</button>
             <ToggleDark isDark={isDark} setIsDark={setIsDark} />
         </div>
     </div>
